@@ -18,13 +18,13 @@ export const WEIGHTS = {
 };
 
 const BREAKPOINTS = {
-  phoneMax: 37.5,
-  tabletMax: 59.375,
-  desktopMax: 81.25,
+  phoneMax: 600,
+  tabletMax: 950,
+  desktopMax: 1300,
 };
 
 export const QUERIES = {
-  phoneMax: `(max-width: ${BREAKPOINTS.phoneMax}rem)`,
-  tabletMax: `(max-width: ${BREAKPOINTS.tabletMax}rem)`,
-  desktopMax: `(max-width: ${BREAKPOINTS.desktopMax}rem)`,
+  phoneAndSmaller: `(max-width: ${BREAKPOINTS.phoneMax / 16}rem)`,
+  tabletAndSmaller: `(max-width: ${BREAKPOINTS.tabletMax / 16}rem)`,
+  desktopAndSmaller: `(max-width: ${BREAKPOINTS.desktopMax / 16}rem)`,
 };
