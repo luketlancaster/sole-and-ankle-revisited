@@ -33,7 +33,7 @@ const Header = () => {
         <LilNav>
           <Icon id="shopping-bag" />
           <Icon id="search" />
-          <Icon id="menu" />
+          <Icon id="menu" onClick={() => setShowMobileMenu(true)} />
         </LilNav>
         <Side />
       </MainHeader>
